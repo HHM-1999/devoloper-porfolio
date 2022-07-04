@@ -10,12 +10,13 @@ h1{
 .color{
     color: rgb(202, 90, 109);
 }
-section{
+.fexible{
     display: flex;
+    margin-bottom: 150px;
 }
 .part1{
     width: 90%;
-    padding-left:2% ;
+    padding-left:3% ;
 }
 img{
     width: 80%;
@@ -68,4 +69,23 @@ img{
     background-position: right;
     margin: 0;
     padding:0;
+}
+.part3{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    border-left: 7px solid palevioletred;
+
+
+}
+.part3 h2{
+    font-size: 20px;
+}
+.experience{
+    background-image: url(./images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 7%;
 }
