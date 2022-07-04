@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+   
     
 }
 h1{
@@ -27,8 +28,44 @@ img{
     border-radius: 5px;
 
 }
+.link-button:hover{
+    color:black;
+}
 .banner{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
     padding-left: 5%;
+}
+
+.page-2 img{
+    width: 70%;
+}
+.page-2 .link-button-1{
+    text-decoration: none;
+    padding: 10px 40px;
+    color:white;
+    background-color: #42cd95;
+    border-radius: 5px;
+    
+    
+}
+.page-2 .link-button-1:hover{
+    color: black;
+
+}
+
+.photo{
+    width: 60%;
+    padding: 10px 40px;
+}
+.part2{
+   width:50%;
+   padding-right: 6%;
+}
+.page-2{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0;
+    padding:0;
 }
